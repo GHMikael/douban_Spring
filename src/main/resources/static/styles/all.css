@@ -476,8 +476,8 @@ p {
   left: -100px;
 }
 .player .logo {
-  width: 80px;
-  height: 32px;
+  width: 50px;
+  height: 50px;
 }
 .player .login-signup {
   display: flex;
@@ -1035,7 +1035,7 @@ p {
   width: 17px;
   height: 17px;
   margin-right: 7px;
-  background: url(../assets/images/explore/heart.png) no-repeat center/contain;
+  background: url(../assets/images/explore/explore-cd.png) no-repeat center/contain;
 }
 .explore .nav .item-selected {
   color: #2f9842;
@@ -1059,7 +1059,7 @@ p {
   width: 17px;
   height: 17px;
   margin-right: 8px;
-  background: url(../assets/images/explore/heart-selected.png) no-repeat center/contain;
+  background: url(../assets/images/explore/explore-cd-selected.png) no-repeat center/contain;
 }
 
 footer {
@@ -2092,11 +2092,6 @@ footer .ad > a {
 }
 .star-tour-container .top .top-search .search input::-webkit-input-placeholder {
   /*WebKit browsers*/
-  font-size: 14px;
-  color: #969696;
-}
-.star-tour-container .top .top-search .search input::-moz-input-placeholder {
-  /*Mozilla Firefox*/
   font-size: 14px;
   color: #969696;
 }

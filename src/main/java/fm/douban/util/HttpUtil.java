@@ -17,7 +17,6 @@ import java.util.concurrent.TimeUnit;
 @Component
 public class HttpUtil {
     private static Logger logger = LoggerFactory.getLogger(HttpUtil.class);
-
     // okHttpClient 实例
     // 连接 2 分钟超时，读取 4 分钟超时
     private static OkHttpClient okHttpClient = new OkHttpClient.Builder().connectTimeout(2, TimeUnit.MINUTES)

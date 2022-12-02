@@ -1,11 +1,11 @@
 package fm.douban.util;
 
 public class SubjectUtil {
+
     /**
      * 兆赫
      */
     public static final String TYPE_MHZ = "mhz";
-
     /**
      * 歌单
      */
